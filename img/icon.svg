@@ -1,23 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 80 80">
 	<desc>SAZANKA LOGO</desc>
-	<g style="fill:none;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(40,40)">
+	<g style="fill:none;stroke:#923;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(40,40)">
 		<circle r="36" style="fill:#fff;stroke:#ddd;"/>
-		<g stroke="#666">
-			<path d="m-8,-3v6l4,2v2"/>
-			<path d="m0,-7v6l-4,2v1"/>
-			<path d="m4,1l-4,2v6"/>
-			<path d="m8,-3v6l-4,2v2"/>
-		</g>
-		<path d="m16,0l-5,-11,-11,-5,-11,5,-5,11,5,11,11,5,11,-5zm-16,0" stroke="#222"/>
-		<path d="m14,0a14,14,0,1,0,0,.00001zm-14,0" stroke="#444"/>
-		<path d="m13,-13q-13,-19,-26,0,-19,13,0,26,13,19,26,0,19,-13,0,-26m-13,13" stroke="#a02"/>
+		<path d="M-8,-3v6l4,2v2 M0,-7v6l-4,2v1 M4,1l-4,2v6 M8,-3v6l-4,2v2" stroke="#666"/>
+		<path d="m16,0l-5,-11,-11,-5,-11,5,-5,11,5,11,11,5,11,-5z" stroke="#222"/>
+		<path d="m14,0a14,14,0,1,0,0,.00001z" stroke="#444"/>
 		<g>
-			<path d="m14,-26c-9,-8,-28,-6,-29,7" stroke="#a02" transform="rotate(60)"/>
-			<path d="m14,-26c-9,-8,-28,-6,-29,7" stroke="#a02" transform="rotate(120)"/>
-			<path d="m15,-15c6,-21,-36,-21,-30,0" stroke="#0a4" transform="rotate(180)"/>
-			<path d="m14,-26c-9,-8,-28,-6,-29,7" stroke="#26b" transform="rotate(240)"/>
-			<path d="m14,-26c-9,-8,-28,-6,-29,7" stroke="#849" transform="rotate(300)"/>
-			<path d="m15,-15c6,-21,-36,-21,-30,0" stroke="#a02"/>
+			<path d="m13,-13q-13,-19,-26,0,-19,13,0,26,13,19,26,0,19,-13,0,-26"/>
+
+			<path d="m15,-15c6,-21,-36,-21,-30,0"/>
+			<path d="m12,-27c-9,-7,-29,-4,-27,9" transform="rotate(60)"/>
+			<path d="m12,-27c-9,-7,-28,-4,-28,8" transform="rotate(120)"/>
+			<path d="m15,-15c6,-21,-36,-21,-30,0" stroke="#2a3" transform="rotate(180)"/>
+			<path d="m12,-27c-9,-7,-29,-4,-27,9" stroke="#36a" transform="rotate(240)"/>
+			<path d="m12,-27c-9,-7,-28,-4,-28,8" stroke="#849" transform="rotate(300)"/>
 		</g>
 	</g>
 </svg>
