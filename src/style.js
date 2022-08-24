@@ -5,7 +5,7 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
 	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;z-index:10;}
 	.title{padding:16vmin 0;text-align:center;font-size:16vmin;}
-	hr,.box,header>*{box-sizing:border-box;border:0;background-color:#6668;backdrop-filter:blur(4px);border-radius:16px;padding:2px;}
+	hr,.box,header>*{box-sizing:border-box;border:0;background-color:#6668;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px);border-radius:16px;padding:2px;}
 	.box,header>*{padding:8px;}header>*{flex:0 0 auto;height:64px;}.box{margin:8px 0;}
 	header>a{text-decoration:none;}header>a>img{display:inline-block;height:100%;width:auto;}
 	header>button{-webkit-appearance:none;appearance:none;margin:0;border:0;width:64px;font-size:32px;color:#fffc;}header>button:focus{box-shadow:0 0 0 4px inset #f84;}
@@ -17,7 +17,7 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 		<img src="${root}img/icon.svg" alt="LOGO" width="1" height="1">
 		<img src="${root}img/txt.svg" alt="SAZANKA Robotics" width="9" height="4">
 	</a>
-	<button>三</button>
+	<button ontouchstart>三</button>
 	<nav>
 		<div>
 			<h2><a href="${root}about.html">About</a></h2>
