@@ -2,7 +2,7 @@ const root=document.querySelector('script[src$="src/style.js"]').outerHTML.match
 document.body.insertAdjacentHTML('beforeend',`<style>
 	:root{background-color:#a65;color:#fff;font-family:sans-serif;}
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
-	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;}
+	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;}
 	header>*{box-sizing:border-box;padding:8px;flex:0 0 auto;background-color:#2228;border-radius:16px;backdrop-filter:blur(4px);height:64px;}
 	header>a{text-decoration:none;}header>a>img{display:inline-block;height:100%;width:auto;}
 	header>button{-webkit-appearance:none;appearance:none;margin:0;border:0;width:64px;font-size:32px;color:#fff8;}header>button:focus{box-shadow:0 0 0 4px inset #48f;}
