@@ -20,13 +20,13 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 	<button>三</button>
 	<nav>
 		<div>
-			<h2>About</h2>
+			<h2><a href="${root}about/sazanka.html#us">About</a></h2>
 			<ul>
-				<li><a href="${root}about/sazanka.html">SAZANKAとは</a></li>
-				<li><a href="${root}about/frc.html">FRC FIRSTとは</a></li>
-				<li><a href="${root}about/achievements.html">チーム実績</a></li>
-				<li><a href="${root}about/management.html">収支報告</a></li>
-				<li><a href="${root}about/sponsers.html">スポンサー</a></li>
+				<li><a href="${root}about/sazanka.html#us">SAZANKAとは</a></li>
+				<li><a href="${root}about/sazanka.html#frc">FRC FIRSTとは</a></li>
+				<li><a href="${root}about/sazanka.html#achevements">チーム実績</a></li>
+				<li><a href="${root}about/sazanka.html#management">収支報告</a></li>
+				<li><a href="${root}about/sazanka.html#sponsers">スポンサー</a></li>
 			</ul>
 		</div>
 		<div>
