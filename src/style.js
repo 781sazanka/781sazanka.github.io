@@ -13,10 +13,7 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 	button:focus~nav,nav:focus-within,button:hover~nav,nav:hover{transform:scale(1);opacity:1;visibility:visible;}
 </style>
 <header>
-	<a href="${root}index.html">
-		<img src="${root}img/icon.svg" alt="LOGO" width="1" height="1">
-		<img src="${root}img/txt.svg" alt="SAZANKA Robotics" width="9" height="4">
-	</a>
+	<a href="${root}index.html"><img src="${root}img/icon.svg" alt="LOGO" width="1" height="1"><img src="${root}img/txt.svg" alt="SAZANKA Robotics" width="9" height="4"></a>
 	<button>三</button>
 	<nav>
 		<div>
