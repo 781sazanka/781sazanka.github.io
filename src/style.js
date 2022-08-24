@@ -36,3 +36,4 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 		</div>		
 	</nav>
 </header>`);
+document.documentElement.ontouchstart=_=>_;
