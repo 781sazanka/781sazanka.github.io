@@ -1,7 +1,7 @@
 const root=document.querySelector('script[src$="src/style.js"]').outerHTML.match(/"(.*)src\/style.js"/)[1];
 document.body.insertAdjacentHTML('beforeend',`<style>
 	:root{background-color:#401;color:#fff;font-family:sans-serif;}
-	:root::before{content:"";display:block;width:80vmin;height:80vmin;position:fixed;top:10%;right:0;transform:translateX(25%);background:url(${root}img/icon_.svg) no-repeat;filter:drop-shadow(0 0 16px #fff)blur(4px)opacity(.2);}
+	:root::before{content:"";display:block;width:80vmin;height:80vmin;position:fixed;top:10%;right:0;transform:translateX(25%);background:url(${root}img/icon_.svg) no-repeat 0 0/100%;filter:drop-shadow(0 0 16px #fff)blur(4px)opacity(.2);}
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
 	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;z-index:10;}
 	.title{padding:16vmin 0;text-align:center;font-size:16vmin;}
