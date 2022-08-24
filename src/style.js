@@ -1,6 +1,6 @@
 const root=document.querySelector('script[src$="src/style.js"]').outerHTML.match(/"(.*)src\/style.js"/)[1];
-document.body.insertAdjacentHTML('beforeend',`<style>
-	:root{background-color:#401;color:#fff;font-family:sans-serif;}
+document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" media="print" onload="this.media='all';"><style>
+	:root{background-color:#401;color:#fff;font-family:'Zen Maru Gothic',sans-serif;}*{font-family:inherit;}
 	:root::before{content:"";display:block;width:80vmin;height:80vmin;position:fixed;top:10%;right:0;transform:translateX(25%);background:url(${root}img/icon_.svg) no-repeat 0 0/100%;filter:drop-shadow(0 0 16px #fff)blur(4px)opacity(.2);}
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
 	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;z-index:10;}
@@ -22,23 +22,20 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 		<div>
 			<h2><a href="${root}about.html">About</a></h2>
 			<ul>
-				<li><a href="${root}about.html#us">SAZANKAとは</a></li>
-				<li><a href="${root}about.html#frc">FRC FIRSTとは</a></li>
+				<li><a href="${root}about.html#us">私たちについて</a></li>
+				<li><a href="${root}about.html#frc">FRCについて</a></li>
 				<li><a href="${root}about.html#data">チームデータ</a></li>
 				<li><a href="${root}about.html#activities">活動内容</a></li>
 				<li><a href="${root}about.html#eligibility">応募資格</a></li>
 			</ul>
 		</div>
 		<div>
-			<h2>Blog</h2>
+			<h2>SNS</h2>
 			<ul>
-				<li><a href="${root}blog.html">WIP</a></li>
-				<li><a href="${root}blog.html">WIP</a></li>
-				<li><a href="${root}blog.html">WIP</a></li>
-				<li><a href="${root}blog.html">WIP</a></li>
-				<li><a href="${root}blog.html">WIP</a></li>
+				<li><a href="https://www.instagram.com/teamsazanka/" target="_blank">Instagram</a></li>
+				<li><a href="https://twitter.com/Sazanka_FRC" target="_blank">Twitter</a></li>
+				<li><a href="https://www.facebook.com/Sazanka-RoboticsFRC8615-107049188759627" target="_blank">Facebook</a></li>
 			</ul>
-		</div>
+		</div>		
 	</nav>
 </header>`);
-document.body.querySelectorAll('header button,header a').forEach(x=>x.ontouchstart=_=>_);
