@@ -17,7 +17,7 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 		<img src="${root}img/icon.svg" alt="LOGO" width="1" height="1">
 		<img src="${root}img/txt.svg" alt="SAZANKA Robotics" width="9" height="4">
 	</a>
-	<button ontouchstart>三</button>
+	<button ontouchstart="">三</button>
 	<nav>
 		<div>
 			<h2><a href="${root}about.html">About</a></h2>
