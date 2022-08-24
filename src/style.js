@@ -2,7 +2,7 @@ const root=document.querySelector('script[src$="src/style.js"]').outerHTML.match
 document.body.insertAdjacentHTML('beforeend',`<style>
 	:root{background-color:#a65;color:#fff;font-family:sans-serif;}
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
-	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;}
+	header{position:-webkit-sticky;position:sticky;display:flex;justify-content:space-between;flex-wrap:wrap;padding-bottom:8px;top:8px;z-index:10;}
 	.title{padding:10vmin 0;text-align:center;font-size:16vmin;}
 	hr,.box,header>*{box-sizing:border-box;border:0;background-color:#2228;backdrop-filter:blur(4px);border-radius:16px;padding:2px;}
 	.box,header>*{padding:8px;}
@@ -20,23 +20,23 @@ document.body.insertAdjacentHTML('beforeend',`<style>
 	<button>三</button>
 	<nav>
 		<div>
-			<h2><a href="${root}about/sazanka.html#us">About</a></h2>
+			<h2><a href="${root}about.html#us">About</a></h2>
 			<ul>
-				<li><a href="${root}about/sazanka.html#us">SAZANKAとは</a></li>
-				<li><a href="${root}about/sazanka.html#frc">FRC FIRSTとは</a></li>
-				<li><a href="${root}about/sazanka.html#achevements">チーム実績</a></li>
-				<li><a href="${root}about/sazanka.html#management">収支報告</a></li>
-				<li><a href="${root}about/sazanka.html#sponsers">スポンサー</a></li>
+				<li><a href="${root}about.html#us">SAZANKAとは</a></li>
+				<li><a href="${root}about.html#frc">FRC FIRSTとは</a></li>
+				<li><a href="${root}about.html#data">チームデータ</a></li>
+				<li><a href="${root}about.html#activities">活動内容</a></li>
+				<li><a href="${root}about.html#eligibility">応募資格</a></li>
 			</ul>
 		</div>
 		<div>
 			<h2>Blog</h2>
 			<ul>
-				<li><a href="${root}blog/">WIP</a></li>
-				<li><a href="${root}blog/">WIP</a></li>
-				<li><a href="${root}blog/">WIP</a></li>
-				<li><a href="${root}blog/">WIP</a></li>
-				<li><a href="${root}blog/">WIP</a></li>
+				<li><a href="${root}blog.html">WIP</a></li>
+				<li><a href="${root}blog.html">WIP</a></li>
+				<li><a href="${root}blog.html">WIP</a></li>
+				<li><a href="${root}blog.html">WIP</a></li>
+				<li><a href="${root}blog.html">WIP</a></li>
 			</ul>
 		</div>
 	</nav>
