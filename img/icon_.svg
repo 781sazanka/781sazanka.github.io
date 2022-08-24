@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64">
+	<desc>SAZANKA LOGO transparent</desc>
+	<g style="fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(32,32)">
+		<g>
+			<path d="M7,-19c8,-6,21,8,17,19"/>
+			<path d="M21,-3c8,6,1,23,-9,23"/>
+			<path d="M13,-13c3,-17,-29,-17,-26,0" transform="rotate(180)"/>
+			<path d="M7,-19c8,-6,21,8,17,19" transform="rotate(180)"/>
+			<path d="M21,-3c8,6,1,23,-9,23" transform="rotate(180)"/>
+			<path d="M13,-13c3,-17,-29,-17,-26,0"/>
+		</g>
+		<path d="M11,-11q-11,-16,-22,0,-16,11,0,22,11,16,22,0,16,-11,0,-22"/>
+		<path d="M13,0l-4,-9,-9,-4,-9,4,-4,9,4,9,9,4,9,-4z"/>
+		<circle r="11"/>
+		<path d="M-6,-3v5l3,2v1 M0,-6v4l-3,2v1 M3,0l-3,2v4 M6,-3v5l-3,2v1"/>
+	</g>
+</svg>
