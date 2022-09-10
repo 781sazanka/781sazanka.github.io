@@ -18,11 +18,16 @@
 </head>
 <body>
 	<script src="src/style.js"></script>
+	<style>
+		.clear_fix::after{content:"";clear:both;display:block;}
+	</style>
 	<h1 class="title">About Us</h1>
+	<div class="items" style="--items:512px;">
 	<div class="box" id="us">
 		<h2>私たちについて</h2>
 		<hr>
 		<p>
+			<img src="img/photo-output.jpg" alt="Sazanka Robotics" style="float: right;width:320px;">
 			私たちSAZANKA Roboticsは令和2年度に発足し、<br>
 			世界最大級の中高生ロボット競技会「FIRST Robotics Competition (FRC)」に参加しているチームです。<br>
 			ロボット製作、企業訪問、運営など、中高生が主体となって活動し、<br>
@@ -33,6 +38,7 @@
 			<br>
 			何かご不明な点などございましたら <br>
 			sazanka.robotics@gmail.comまでお気軽にご連絡ください。
+			<div class="clear_fix"></div>
 		</p>
 	</div>
 	<div class="box" id="frc">
@@ -129,5 +135,6 @@
 			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>
