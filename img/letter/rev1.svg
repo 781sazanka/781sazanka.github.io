@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1051" height="1500" viewBox="0 0 1000 1500">
+	<desc>SAZANKA Letter Size Rev1</desc>
+	<g><!--components-->
+		<mask id="_icon"><image href="https://781sazanka.github.io/img/icon_.svg" width="250" height="250"/></mask>
+		<mask id="_txt"><image href="https://781sazanka.github.io/img/txt.svg" width="500" height="250"/></mask>
+		<image href="https://781sazanka.github.io/img/icon.svg" x="5" y="5" width="240" height="240" id="icon"/>
+		<rect width="250" height="250" mask="url(#_icon)" fill="#222" id="icon_"/>
+		<rect width="500" height="250" mask="url(#_txt)" fill="#222" id="txt_"/>
+		<g id="main">
+			<use href="#icon"/>
+			<use href="#icon_" x="250"/>
+			<use href="#txt_" x="500"/>
+		</g>
+	</g>
+	<rect width="1051" height="1500" fill="#fff"/>
+	<use href="#main" y="  0"/>
+	<use href="#main" y="250"/>
+	<use href="#main" y="500"/>
+	<use href="#main" y="750"/>
+	<use href="#main" y="1000"/>
+	<use href="#main" y="1250"/>
+</svg>

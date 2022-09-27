@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1051" height="1500" viewBox="0 0 1000 1500">
+	<desc>SAZANKA Letter Size Rev2</desc>
+	<g><!--components-->
+		<mask id="_icon"><image href="https://781sazanka.github.io/img/icon_.svg" width="250" height="250"/></mask>
+		<mask id="_sicon"><image href="https://781sazanka.github.io/img/icon_.svg" width="125" height="125"/></mask>
+		<mask id="_txt"><image href="https://781sazanka.github.io/img/txt.svg" width="250" height="250"/></mask>
+		<mask id="_stxt"><image href="https://781sazanka.github.io/img/txt.svg" width="125" height="125"/></mask>
+		<image href="https://781sazanka.github.io/img/icon.svg" x="5" y="5" width="240" height="240" id="icon"/>
+		<image href="https://781sazanka.github.io/img/icon.svg" x="5" y="5" width="115" height="115" id="sicon"/>
+		<rect width="250" height="250" mask="url(#_txt)" fill="#666" id="txt"/>
+		<rect width="125" height="125" mask="url(#_stxt)" fill="#666" id="stxt"/>
+		<rect width="250" height="250" mask="url(#_icon)" fill="#a00" id="icon_"/>
+		<rect width="125" height="125" mask="url(#_sicon)" fill="#a00" id="sicon_"/>
+		<rect width="250" height="250" mask="url(#_txt)" fill="#a00" id="txt_"/>
+		<rect width="125" height="125" mask="url(#_stxt)" fill="#a00" id="stxt_"/>
+		<g id="col">
+			<use href="#icon"/>
+			<use href="#txt" x="250"/>
+			<use href="#icon" x="500"/>
+			<use href="#sicon" x="750"/><use href="#stxt" x="875"/>
+			<use href="#sicon" x="750" y="125"/><use href="#sicon" x="875" y="125"/>
+		</g>
+		<g id="mono">
+			<use href="#icon_"/>
+			<use href="#txt_" x="250"/>
+			<use href="#icon_" x="500"/>
+			<use href="#sicon_" x="750"/><use href="#stxt_" x="875"/>
+			<use href="#sicon_" x="750" y="125"/><use href="#sicon_" x="875" y="125"/>
+		</g>
+	</g>
+	<rect width="1051" height="1500" fill="#fff"/>
+	<use href="#col" y="  0"/>
+	<use href="#mono" y="250"/>
+	<use href="#col" y="500"/>
+	<use href="#mono" y="750"/>
+	<use href="#col" y="1000"/>
+	<use href="#mono" y="1250"/>
+</svg>
