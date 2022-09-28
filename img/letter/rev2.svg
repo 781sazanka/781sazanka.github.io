@@ -9,10 +9,10 @@
 		<image href="https://781sazanka.github.io/img/icon.svg" x="5" y="5" width="115" height="115" id="sicon"/>
 		<rect width="250" height="250" mask="url(#_txt)" fill="#666" id="txt"/>
 		<rect width="125" height="125" mask="url(#_stxt)" fill="#666" id="stxt"/>
-		<rect width="250" height="250" mask="url(#_icon)" fill="#a00" id="icon_"/>
-		<rect width="125" height="125" mask="url(#_sicon)" fill="#a00" id="sicon_"/>
-		<rect width="250" height="250" mask="url(#_txt)" fill="#a00" id="txt_"/>
-		<rect width="125" height="125" mask="url(#_stxt)" fill="#a00" id="stxt_"/>
+		<rect width="250" height="250" mask="url(#_icon)" fill="#802" id="icon_"/>
+		<rect width="125" height="125" mask="url(#_sicon)" fill="#802" id="sicon_"/>
+		<rect width="250" height="250" mask="url(#_txt)" fill="#802" id="txt_"/>
+		<rect width="125" height="125" mask="url(#_stxt)" fill="#802" id="stxt_"/>
 		<g id="col">
 			<use href="#icon"/>
 			<use href="#txt" x="250"/>
