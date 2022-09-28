@@ -33,7 +33,7 @@
 							'beforeend',
 							(
 								wrap.textContent='',
-								l==a?'':`読み込み中... ${(l/a*100).toFixed(2)} %<br><progress value="${l/a}" max="1" style="width:100%;"></progress><br>${l}B / ${a}B`
+								l>=a?'':`読み込み中... ${(l/a*100).toFixed(2)} %<br><progress value="${l/a}" max="1" style="width:100%;"></progress><br>${l}B / ${a}B`
 							)
 						)
 					)
