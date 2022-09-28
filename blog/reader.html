@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og:http://ogp.me/ns#">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>SAZANKA Robitics - Blog</title>
+	<meta name="description" content="SAZANKA Roboticsのブログです">
+	<link rel="icon" type="image/xml+svg" href="../img/icon.svg">
+	<link rel="icon" type="image/png" href="../img/icon.png">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="SAZANKA Robitics - Blog">
+	<meta property="og:description" content="SAZANKA Roboticsのブログです">
+	<meta property="og:url" content="https://781sazanka.github.io/">
+	<meta property="og:image" content="https://781sazanka.github.io/img/icon.png">
+	<link rel="apple-touch-icon" href="../img/icon.png">
+	<meta name="theme-color" content="#401"/>
+</head>
+<body>
+	<script src="../src/style.js"></script>
+
+	<div class="box" id="wrap">読み込み中...</div>
+	<script type="module">
+		import * as marked from'https://cdn.jsdelivr.net/npm/marked/src/marked.min.js';
+		(async w=>{
+			const urlq=Object.fromEntries(location.search.slice(1).split('&').filter(y=>y).map(x=>x.split('=',2))),
+				progress=(r,f)=>new Response(new ReadableStream({start:async(c,l=0,x,a=+r.headers.get('content-length'))=>{r=r.body.getReader();while((x=(await r.read()).value)&&!x.done){c.enqueue(x);f(l+=x.byteLength,a);}c.close();}}));
+			marked.setOptions({baseUrl:urlq.href});
+			wrap.insertAdjacentHTML('beforeend',marked.parse(
+				await(
+					await progress(
+						await fetch(urlq.href),
+						(l,a)=>wrap.insertAdjacentHTML(
+							'beforeend',
+							(
+								wrap.textContent='',
+								l==a?'':`読み込み中... ${(l/a*100).toFixed(2)} %<br><progress value="${l/a}" max="1" style="width:100%;"></progress><br>${l}B / ${a}B`
+							)
+						)
+					)
+				).text()
+			));
+			document.title+=' - '+wrap.querySelector('h1').textContent;
+			wrap.querySelectorAll('table').forEach(x=>x.classList.add('box'));
+		})().catch(e=>{
+			console.log(e);
+			wrap.textContent=e;
+		})
+	</script>
+</body>
+</html>
