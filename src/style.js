@@ -56,15 +56,19 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 		</div>		
 	</nav>
 </header>`);
-addEventListener('DOMContentLoaded',e=>document.body.insertAdjacentHTML('beforeend',`
-	<div class="box">
+addEventListener('DOMContentLoaded',async e=>{
+	document.body.insertAdjacentHTML('beforeend',`<div class="box">
 		<h2>お問い合わせ</h2>
 		<hr>
 		<h2><a href="https://docs.google.com/forms/d/e/1FAIpQLSe83hDsR-ABGXzZxZ_cfQE-UIQSprTK8KLmTkedYauMUNK6aw/viewform?usp=sf_link">Google Forms</a></h2>
 	</div>
 	<hr><footer>
 		2020~ by SAZANKA Robotics.｡:+*<br>
+		<span id="acccnt">Loading...</span><br>
 		MIT License
-	</footer>
-`));
+	</footer>`);
+	const counter=await(await fetch(`https://script.google.com/macros/s/AKfycbxKSdzU1_sla17m48kpEG8MYJ4HaTYF9JtqDRIqTukMsrBtSgzmyHGzWbUVaZEQcKGv/exec${sessionStorage.visited?'':'?add=1'}`)).json();
+	sessionStorage.visited=true;
+	acccnt.textContent=`today:${counter.today} total:${counter.total}`;
+});
 document.documentElement.ontouchstart=_=>_;
