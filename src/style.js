@@ -67,7 +67,7 @@ addEventListener('DOMContentLoaded',async e=>{
 		<span id="acccnt">Loading...</span><br>
 		MIT License
 	</footer>`);
-	const counter=await(await fetch(`https://script.google.com/macros/s/AKfycbxKSdzU1_sla17m48kpEG8MYJ4HaTYF9JtqDRIqTukMsrBtSgzmyHGzWbUVaZEQcKGv/exec${sessionStorage.visited?'':'?add=1'}`)).json();
+	const counter=await(await fetch(`https://script.google.com/macros/s/AKfycbxKSdzU1_sla17m48kpEG8MYJ4HaTYF9JtqDRIqTukMsrBtSgzmyHGzWbUVaZEQcKGv/exec${(sessionStorage.visited||!location.protocol.includes('http'))?'':'?add=1'}`)).json();
 	sessionStorage.visited=true;
 	acccnt.textContent=`today:${counter.today} total:${counter.total}`;
 });
