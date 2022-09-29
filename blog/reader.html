@@ -18,26 +18,15 @@
 <body>
 	<script src="../src/style.js"></script>
 
-	<div class="box" id="wrap">読み込み中...</div>
+	<div class="box" id="wrap">お待ちください...</div>
 	<script type="module">
 		import * as marked from'https://cdn.jsdelivr.net/npm/marked/src/marked.min.js';
 		(async w=>{
-			const urlq=Object.fromEntries(location.search.slice(1).split('&').filter(y=>y).map(x=>x.split('=',2))),
-				progress=(r,f)=>new Response(new ReadableStream({start:async(c,l=0,x,a=+r.headers.get('content-length'))=>{r=r.body.getReader();while((x=(await r.read()).value)&&!x.done){c.enqueue(x);f(l+=x.byteLength,a);}c.close();}}));
+			const urlq=Object.fromEntries(location.search.slice(1).split('&').filter(y=>y).map(x=>x.split('=',2)));
 			marked.setOptions({baseUrl:urlq.href});
+			wrap.textContent='読み込み中...';
 			wrap.insertAdjacentHTML('beforeend',marked.parse(
-				await(
-					await progress(
-						await fetch(urlq.href),
-						(l,a)=>wrap.insertAdjacentHTML(
-							'beforeend',
-							(
-								wrap.textContent='',
-								l>=a?'':`読み込み中... ${(l/a*100).toFixed(2)} %<br><progress value="${l/a}" max="1" style="width:100%;"></progress><br>${l}B / ${a}B`
-							)
-						)
-					)
-				).text()
+				(x=>(wrap.textContent='',x))(await(await fetch(urlq.href)).text())
 			));
 			document.title+=' - '+wrap.querySelector('h1').textContent;
 			wrap.querySelectorAll('table').forEach(x=>x.classList.add('box'));
