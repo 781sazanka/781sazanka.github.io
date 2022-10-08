@@ -1,5 +1,5 @@
 const root=document.querySelector('script[src$="src/style.js"]').outerHTML.match(/"(.*)src\/style.js"/)[1];
-document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" media="print" onload="this.media='all';"><style>
+document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" media="print" onload="this.media='all';"><style>
 	:root{background-color:#401;color:#fff;font-family:'Zen Maru Gothic',sans-serif;--items:240px;}*{font-family:inherit;}
 	:root::before{content:"";display:block;width:80vmin;height:80vmin;position:fixed;top:10%;right:0;transform:translateX(25%);background:url(${root}img/icon_.svg) no-repeat 0 0/100%;filter:drop-shadow(0 0 16px #fff)blur(4px)opacity(.2);}
 	:link{color:#aef;}:link:hover{color:#8af;}:link:active{color:#48f;}:visited{color:#eaf;}:visited:hover{color:#a8f;}:visited:active{color:#84f;}
