@@ -32,7 +32,7 @@
 			wrap.insertAdjacentHTML('beforeend',marked.parse(
 				(x=>(wrap.textContent='',x))(await(await fetch(urlq.href)).text())
 			));
-			document.title+=' - '+wrap.querySelector('h1').textContent;
+			(x=>x&&(document.title+=' - '+x.textContent))(wrap.querySelector('h1'));
 			wrap.querySelectorAll('table').forEach(x=>x.classList.add('box'));
 		})().catch(e=>{
 			console.log(e);
