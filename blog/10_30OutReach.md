@@ -1,6 +1,6 @@
 # 電子オルゴールを作ろう！  
 
-<div style="text-align:right;"><img src="img/221030music.png" style="max-width:320px;">></div>
+<div style="text-align:right;"><img src="img/221030music.png" style="max-width:32px;">></div>
 
 **10/30(日)** に小学生・中高生向けの電子オルゴール製作ワークショップを開催します!  
   
