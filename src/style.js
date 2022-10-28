@@ -46,18 +46,15 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 			</ul>
 		</div>
 		<div>
+			<h2><a href="${root}blog/index.html">Blog</a></h2>
+		</div>
+		<div>
 			<h2>Contact Us</h2>
 			<ul>
 				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe83hDsR-ABGXzZxZ_cfQE-UIQSprTK8KLmTkedYauMUNK6aw/viewform?usp=sf_link" target="_blank">Google Forms</a></li>
 				<li><a href="https://www.instagram.com/teamsazanka/" target="_blank">Instagram</a></li>
 				<li><a href="https://twitter.com/Sazanka_FRC" target="_blank">Twitter</a></li>
 				<li><a href="https://www.facebook.com/Sazanka-RoboticsFRC8615-107049188759627" target="_blank">Facebook</a></li>
-			</ul>
-		</div>
-		<div>
-			<h2>Blog</h2>
-			<ul>
-				<li><a href="${root}blog/index.html">Blog</a></li>
 			</ul>
 		</div>
 	</div>
