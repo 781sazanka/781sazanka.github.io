@@ -1,4 +1,6 @@
-# 電子オルゴールを作ろう！  
+# 電子オルゴールを作ろう！ 
+**イベント終了しました。**
+<h2>>> <a href="https://781sazanka.github.io/blog/reader.html?href=20221031.md">開催の様子はこちら </a> <<</h2>
 
 <div style="text-align:right;"><img src="img/221030music.png" style="max-width:200px;">></div>
 
