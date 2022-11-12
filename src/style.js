@@ -21,6 +21,9 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 	<button>MENU ☰</button>
 	<nav>
 		<div>
+			<h2><a href="${root}blog/index.html">Blog</a></h2>
+		</div>
+		<div>
 			<h2><a href="${root}about.html">About Us</a></h2>
 			<ul>
 				<li><a href="${root}about.html#us">私たちについて</a></li>
@@ -44,9 +47,6 @@ document.body.insertAdjacentHTML('beforeend',`<link rel="stylesheet" href="https
 				<li><a href="${root}support.html#silver">Silver sponser</a></li>
 				<li><a href="${root}support.html#bronze">Bronze sponser</a></li>
 			</ul>
-		</div>
-		<div>
-			<h2><a href="${root}blog/index.html">Blog</a></h2>
 		</div>
 		<div>
 			<h2>Contact Us</h2>
