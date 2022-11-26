@@ -8,6 +8,20 @@
     </title>   
 </head>
 <body>
+    <div id="text">
+    </div>
+    <script type="text/javascript">
+      var i=0,text;
+      text = "Saturday, November 12, 2022"
+      function typing(){
+        if(i<text.length){
+          document.getElementById("text").innerHTML += text.charAt(i);i++;
+          setTimeout(typing,50);
+        }
+      }
+  typing();
+    </script>
+
     <h1 style="color: skyblue;">コツコツ活動 / Little by little</h1>
     <hr>
     (English below)<br>
