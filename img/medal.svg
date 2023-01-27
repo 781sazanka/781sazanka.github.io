@@ -2,38 +2,38 @@
 	<desc>SAZANKA medal</desc>
 	<g style="fill:none;stroke:#a00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(40,40)">
 		<circle r="39" style="fill:#eee;stroke:#bbb;"/>
-		<g style="stroke:#412;stroke-width:.75;">
-			<path d="m4,1l-2-1-2,1v1l4,2-2,1-2-1m4-4" transform="rotate(-70)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2m4-2" transform="rotate(-60)translate(-2,-37.5)"/>
-			<path d="m0,1l2-1,2,1v1l-4,2,2,1,2-1m0-4" transform="rotate(-50)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2m4-2" transform="rotate(-40)translate(-2,-37.5)"/>
-			<path d="m0,5v-4,1l4,2v1-4m0-1" transform="rotate(-30)translate(-2,-37.5)"/>
-			<path d="m0,1v4-1l4-2v-1m-2,2l2,1v1m0-5" transform="rotate(-20)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2m4-2" transform="rotate(-10)translate(-2,-37.5)"/>
+		<g style="stroke:#412;stroke-width:.6;">
+			<path d="m4,1l-2-1-2,1v1l4,2-2,1-2-1" transform="rotate(-70)translate(-2,-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-60)translate(-2,-37.5)"/>
+			<path d="m0,1l2-1,2,1v1l-4,2,2,1,2-1" transform="rotate(-50)translate(-2,-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-40)translate(-2,-37.5)"/>
+			<path d="m0,5v-4,1l4,2v1-4" transform="rotate(-30)translate(-2,-37.5)"/>
+			<path d="m0,1v4-1l4-2v-1m-2,2l2,1v1" transform="rotate(-20)translate(-2,-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-10)translate(-2,-37.5)"/>
 
-			<path d="m4,5v-1l-4-2v3-4l2-1,2,1v1l-2,1m2,-3" transform="rotate(10)translate(-2,-37.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1m4-2" transform="rotate(20)translate(-2,-37.5)"/>
-			<path d="m0,0v4l2,1,2-1v-2l-2-1-2,1m4-2" transform="rotate(30)translate(-2,-37.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1m4-2" transform="rotate(40)translate(-2,-37.5)"/>
+			<path d="m4,5v-1l-4-2v3-4l2-1,2,1v1l-2,1" transform="rotate(10)translate(-2,-37.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(20)translate(-2,-37.5)"/>
+			<path d="m0,0v4l2,1,2-1v-2l-2-1-2,1" transform="rotate(30)translate(-2,-37.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(40)translate(-2,-37.5)"/>
 			<path d="m0,0v4l2,1m-2-3l2-1m2,3v-2m0-2v0" transform="rotate(50)translate(-2,-37.5)"/>
-			<path d="m4,2l-2-1-2,1v2l2,1,2-1m0-4" transform="rotate(60)translate(-2,-37.5)"/>
-			<path d="m4,2l-2-1-2,1,4,2-2,1-2-1m4-4" transform="rotate(70)translate(-2,-37.5)"/>
+			<path d="m4,2l-2-1-2,1v2l2,1,2-1" transform="rotate(60)translate(-2,-37.5)"/>
+			<path d="m4,2l-2-1-2,1,4,2-2,1-2-1" transform="rotate(70)translate(-2,-37.5)"/>
 
-			<path d="m0,2l4-2m-2,1v4m2-5" transform="rotate(70)translate(-2,32.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1m4-2" transform="rotate(60)translate(-2,32.5)"/>
-			<path d="m0,1v4m2-2l-2,1,2,1,2-1v-3,2l-2-1v-2m2,0" transform="rotate(50)translate(-2,32.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1m4-2" transform="rotate(40)translate(-2,32.5)"/>
+			<path d="m0,2l4-2m-2,1v4" transform="rotate(70)translate(-2,32.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(60)translate(-2,32.5)"/>
+			<path d="m0,1v4m2-2l-2,1,2,1,2-1v-3,2l-2-1v-2" transform="rotate(50)translate(-2,32.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(40)translate(-2,32.5)"/>
 
 			<path d="m0,4l2,1,2-1v-4" transform="rotate(20)translate(-2,32.5)"/>
-			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1m0-4" transform="rotate(10)translate(-2,32.5)"/>
-			<path d="m0,1v4-3l2-1,2,1v1l-2,1-2-1m4-3" transform="rotate(0)translate(-2,32.5)"/>
-			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1m0-4" transform="rotate(-10)translate(-2,32.5)"/>
-			<path d="m0,5v-3l2-1,2,1v3m0-5" transform="rotate(-20)translate(-2,32.5)"/>
+			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1" transform="rotate(10)translate(-2,32.5)"/>
+			<path d="m0,1v4-3l2-1,2,1v1l-2,1-2-1" transform="rotate(0)translate(-2,32.5)"/>
+			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1" transform="rotate(-10)translate(-2,32.5)"/>
+			<path d="m0,5v-3l2-1,2,1v3" transform="rotate(-20)translate(-2,32.5)"/>
 
-			<path d="m0,3l4-2-2-1-2,1,4,2v1l-2,1-2-1v-1m4-3" transform="rotate(-40)translate(-2,32.5)"/>
-			<path d="m0,3l2-1,2,1v1l-2,1-2-1v-3l2-1,2,1m0-1" transform="rotate(-50)translate(-2,32.5)"/>
-			<path d="m0,1l2-1v5m2-5" transform="rotate(-60)translate(-2,32.5)"/>
-			<path d="m0,4l2,1,2-1v-1l-2-1-2,1v-2l2-1,2,1m0-1" transform="rotate(-70)translate(-2,32.5)"/>
+			<path d="m0,3l4-2-2-1-2,1,4,2v1l-2,1-2-1v-1" transform="rotate(-40)translate(-2,32.5)"/>
+			<path d="m0,3l2-1,2,1v1l-2,1-2-1v-3l2-1,2,1" transform="rotate(-50)translate(-2,32.5)"/>
+			<path d="m0,1l2-1v5" transform="rotate(-60)translate(-2,32.5)"/>
+			<path d="m0,4l2,1,2-1v-1l-2-1-2,1v-2l2-1,2,1" transform="rotate(-70)translate(-2,32.5)"/>
 		</g>
 		<g>
 			<circle r="31" style="fill:#fff;stroke:#ddd;"/>
