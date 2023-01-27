@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 80 80">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 96 96">
 	<desc>SAZANKA medal</desc>
-	<g style="fill:none;stroke:#a00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(40,40)">
-		<circle r="39" style="fill:#eee;stroke:#bbb;"/>
-		<g style="stroke:#412;stroke-width:.6;">
-			<path d="m4,1l-2-1-2,1v1l4,2-2,1-2-1" transform="rotate(-70)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-60)translate(-2,-37.5)"/>
-			<path d="m0,1l2-1,2,1v1l-4,2,2,1,2-1" transform="rotate(-50)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-40)translate(-2,-37.5)"/>
-			<path d="m0,5v-4,1l4,2v1-4" transform="rotate(-30)translate(-2,-37.5)"/>
-			<path d="m0,1v4-1l4-2v-1m-2,2l2,1v1" transform="rotate(-20)translate(-2,-37.5)"/>
-			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-10)translate(-2,-37.5)"/>
+	<g style="fill:none;stroke:#a00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(48,48)">
+		<defs><path d="m44,0a44,44,0,1,0-88,0,44,44,0,1,0,88,0" transform="rotate(0)" id="txt"/></defs>
+		<circle r="47" style="fill:#ddd;stroke:#bbb;"/>
+		<circle r="39" style="fill:#eee;stroke:#ccc;"/>
+		<g style="stroke:#401;stroke-width:.5;">
+			<path d="m4,1l-2-1-2,1v1l4,2-2,1-2-1" transform="rotate(-70)translate(-2-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-60)translate(-2-37.5)"/>
+			<path d="m0,1l2-1,2,1v1l-4,2,2,1,2-1" transform="rotate(-50)translate(-2-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-40)translate(-2-37.5)"/>
+			<path d="m0,5v-4,1l4,2v1-4" transform="rotate(-30)translate(-2-37.5)"/>
+			<path d="m0,1v4-1l4-2v-1m-2,2l2,1v1" transform="rotate(-20)translate(-2-37.5)"/>
+			<path d="m0,5v-4l2-1,2,1v4-1l-4-2" transform="rotate(-10)translate(-2-37.5)"/>
 
-			<path d="m4,5v-1l-4-2v3-4l2-1,2,1v1l-2,1" transform="rotate(10)translate(-2,-37.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(20)translate(-2,-37.5)"/>
-			<path d="m0,0v4l2,1,2-1v-2l-2-1-2,1" transform="rotate(30)translate(-2,-37.5)"/>
-			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(40)translate(-2,-37.5)"/>
-			<path d="m0,0v4l2,1m-2-3l2-1m2,3v-2m0-2v0" transform="rotate(50)translate(-2,-37.5)"/>
-			<path d="m4,2l-2-1-2,1v2l2,1,2-1" transform="rotate(60)translate(-2,-37.5)"/>
-			<path d="m4,2l-2-1-2,1,4,2-2,1-2-1" transform="rotate(70)translate(-2,-37.5)"/>
+			<path d="m4,5v-1l-4-2v3-4l2-1,2,1v1l-2,1" transform="rotate(10)translate(-2-37.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(20)translate(-2-37.5)"/>
+			<path d="m0,0v4l2,1,2-1v-2l-2-1-2,1" transform="rotate(30)translate(-2-37.5)"/>
+			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(40)translate(-2-37.5)"/>
+			<path d="m0,0v4l2,1m-2-3l2-1m2,3v-2m0-2v0" transform="rotate(50)translate(-2-37.5)"/>
+			<path d="m4,2l-2-1-2,1v2l2,1,2-1" transform="rotate(60)translate(-2-37.5)"/>
+			<path d="m4,2l-2-1-2,1,4,2-2,1-2-1" transform="rotate(70)translate(-2-37.5)"/>
+
+			<path d="m0,2l2-1,2,1m0,2l-2-1-2,1" transform="rotate(-90)translate(-2-37.5)"/>
+			<path d="m0,2l2-1,2,1m0,2l-2-1-2,1" transform="rotate(90)translate(-2-37.5)"/>
 
 			<path d="m0,2l4-2m-2,1v4" transform="rotate(70)translate(-2,32.5)"/>
 			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(60)translate(-2,32.5)"/>
@@ -25,9 +30,9 @@
 			<path d="m0,2v2l2,1,2-1v-2l-2-1-2,1" transform="rotate(40)translate(-2,32.5)"/>
 
 			<path d="m0,4l2,1,2-1v-4" transform="rotate(20)translate(-2,32.5)"/>
-			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1" transform="rotate(10)translate(-2,32.5)"/>
-			<path d="m0,1v4-3l2-1,2,1v1l-2,1-2-1" transform="rotate(0)translate(-2,32.5)"/>
-			<path d="m0,2l2-1,2,1v3-1l-2,1-2-1l2-1,2,1" transform="rotate(-10)translate(-2,32.5)"/>
+			<path d="m0,2l2-1,2,1v2l-2,1-2-1,2-1,2,1" transform="rotate(10)translate(-2,32.5)"/>
+			<path d="m0,5v-3l2-1,2,1v1l-2,1-2-1" transform="rotate(0)translate(-2,32.5)"/>
+			<path d="m0,2l2-1,2,1v2l-2,1-2-1,2-1,2,1" transform="rotate(-10)translate(-2,32.5)"/>
 			<path d="m0,5v-3l2-1,2,1v3" transform="rotate(-20)translate(-2,32.5)"/>
 
 			<path d="m0,3l4-2-2-1-2,1,4,2v1l-2,1-2-1v-1" transform="rotate(-40)translate(-2,32.5)"/>
@@ -35,20 +40,21 @@
 			<path d="m0,1l2-1v5" transform="rotate(-60)translate(-2,32.5)"/>
 			<path d="m0,4l2,1,2-1v-1l-2-1-2,1v-2l2-1,2,1" transform="rotate(-70)translate(-2,32.5)"/>
 		</g>
+		<text style="fill:#888;stroke:none;font-size:4px;font-family:consolas,monospace;"><textPath href="#txt">|0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef</textPath></text>
 		<g>
 			<circle r="31" style="fill:#fff;stroke:#ddd;"/>
 			<g>
-				<path d="M7,-19c8,-6,21,8,17,19"/>
-				<path d="M21,-3c8,6,1,23,-9,23"/>
-				<path d="M13,-13c3,-17,-29,-17,-26,0" transform="rotate(180)" stroke="#0c0"/>
-				<path d="M7,-19c8,-6,21,8,17,19" transform="rotate(180)" stroke="#04c"/>
-				<path d="M21,-3c8,6,1,23,-9,23" transform="rotate(180)" stroke="#a0a"/>
-				<path d="M13,-13c3,-17,-29,-17,-26,0"/>
+				<path d="M7-19c8-6,21,8,17,19"/>
+				<path d="M21-3c8,6,1,23-9,23"/>
+				<path d="M13-13c3-17-29-17-26,0" transform="rotate(180)" stroke="#0c0"/>
+				<path d="M7-19c8-6,21,8,17,19" transform="rotate(180)" stroke="#04c"/>
+				<path d="M21-3c8,6,1,23-9,23" transform="rotate(180)" stroke="#a0a"/>
+				<path d="M13-13c3-17-29-17-26,0"/>
 			</g>
-			<path d="M11,-11q-11,-16,-22,0,-16,11,0,22,11,16,22,0,16,-11,0,-22"/>
-			<path d="M13,0l-4,-9,-9,-4,-9,4,-4,9,4,9,9,4,9,-4z" stroke="#222"/>
+			<path d="M11-11q-11-16-22,0-16,11,0,22,11,16,22,0,16-11,0-22"/>
+			<path d="M13,0l-4-9-9-4-9,4-4,9,4,9,9,4,9-4z" stroke="#222"/>
 			<circle r="11" stroke="#444"/>
-			<path d="M-6,-3v5l3,2v1 M0,-6v4l-3,2v1 M3,0l-3,2v4 M6,-3v5l-3,2v1" stroke="#666" stroke-width="1.5"/>
+			<path d="M-6-3v5l3,2v1 M0-6v4l-3,2v1 M3,0l-3,2v4 M6-3v5l-3,2v1" stroke="#666" stroke-width="1.5"/>
 		</g>
 	</g>
 </svg>
