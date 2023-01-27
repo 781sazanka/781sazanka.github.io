@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 96 96">
 	<desc>SAZANKA medal</desc>
 	<g style="fill:none;stroke:#a00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(48,48)">
-		<defs><path d="m44,0a44,44,0,1,0-88,0,44,44,0,1,0,88,0" transform="rotate(0)" id="txt"/></defs>
 		<circle r="47" style="fill:#ddd;stroke:#bbb;"/>
+		<defs><path d="m44,0a44,44,0,1,0-88,0,44,44,0,1,0,88,0" transform="rotate(0)" id="txt"/></defs>
+		<text style="fill:#888;stroke:none;font-size:4px;font-family:consolas,monospace;"><textPath href="#txt">|0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef</textPath></text>
+
 		<circle r="39" style="fill:#eee;stroke:#ccc;"/>
 		<g style="stroke:#401;stroke-width:.5;">
 			<path d="m4,1l-2-1-2,1v1l4,2-2,1-2-1" transform="rotate(-70)translate(-2-37.5)"/>
@@ -40,21 +42,19 @@
 			<path d="m0,1l2-1v5" transform="rotate(-60)translate(-2,32.5)"/>
 			<path d="m0,4l2,1,2-1v-1l-2-1-2,1v-2l2-1,2,1" transform="rotate(-70)translate(-2,32.5)"/>
 		</g>
-		<text style="fill:#888;stroke:none;font-size:4px;font-family:consolas,monospace;"><textPath href="#txt">|0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef</textPath></text>
+
+		<circle r="31" style="fill:#fff;stroke:#ddd;"/>
 		<g>
-			<circle r="31" style="fill:#fff;stroke:#ddd;"/>
-			<g>
-				<path d="M7-19c8-6,21,8,17,19"/>
-				<path d="M21-3c8,6,1,23-9,23"/>
-				<path d="M13-13c3-17-29-17-26,0" transform="rotate(180)" stroke="#0c0"/>
-				<path d="M7-19c8-6,21,8,17,19" transform="rotate(180)" stroke="#04c"/>
-				<path d="M21-3c8,6,1,23-9,23" transform="rotate(180)" stroke="#a0a"/>
-				<path d="M13-13c3-17-29-17-26,0"/>
-			</g>
-			<path d="M11-11q-11-16-22,0-16,11,0,22,11,16,22,0,16-11,0-22"/>
-			<path d="M13,0l-4-9-9-4-9,4-4,9,4,9,9,4,9-4z" stroke="#222"/>
-			<circle r="11" stroke="#444"/>
-			<path d="M-6-3v5l3,2v1 M0-6v4l-3,2v1 M3,0l-3,2v4 M6-3v5l-3,2v1" stroke="#666" stroke-width="1.5"/>
+			<path d="M7-19c8-6,21,8,17,19"/>
+			<path d="M21-3c8,6,1,23-9,23"/>
+			<path d="M13-13c3-17-29-17-26,0" transform="rotate(180)" stroke="#0c0"/>
+			<path d="M7-19c8-6,21,8,17,19" transform="rotate(180)" stroke="#04c"/>
+			<path d="M21-3c8,6,1,23-9,23" transform="rotate(180)" stroke="#a0a"/>
+			<path d="M13-13c3-17-29-17-26,0"/>
 		</g>
+		<path d="M11-11q-11-16-22,0-16,11,0,22,11,16,22,0,16-11,0-22"/>
+		<path d="M13,0l-4-9-9-4-9,4-4,9,4,9,9,4,9-4z" stroke="#222"/>
+		<circle r="11" stroke="#444"/>
+		<path d="M-6-3v5l3,2v1 M0-6v4l-3,2v1 M3,0l-3,2v4 M6-3v5l-3,2v1" stroke="#666" stroke-width="1.5"/>
 	</g>
 </svg>
