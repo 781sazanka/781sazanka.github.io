@@ -3,7 +3,9 @@
 	<g style="fill:none;stroke:#a00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;" transform="translate(48,48)">
 		<circle r="47" style="fill:#ddd;stroke:#bbb;"/>
 		<defs><path d="m44,0a44,44,0,1,0-88,0,44,44,0,1,0,88,0" transform="rotate(0)" id="txt"/></defs>
-		<text style="fill:#888;stroke:none;font-size:4px;font-family:consolas,monospace;"><textPath href="#txt">|0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef</textPath></text>
+		<text  style="fill:#888;stroke:none;font-size:3.5px;font-weight:bold;font-family:'menlo','consolas',monospace;text-anchor:middle;" transform="rotate(90)">
+			<textPath href="#txt" startOffset="50%">Spreading STEM education in Japan and beyond — Encouraging girls to pursue science-related fields — #morethanrobots</textPath>
+		</text>
 
 		<circle r="39" style="fill:#eee;stroke:#ccc;"/>
 		<g style="stroke:#401;stroke-width:.5;">
